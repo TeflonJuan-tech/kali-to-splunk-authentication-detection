@@ -187,6 +187,25 @@ Disable-NetFirewallRule -DisplayGroup "Remote Desktop"
 
 ---
 
+## Screenshots (Validation Evidence)
+
+### 4625 Burst Detection (Enriched)
+![4625 Burst Detection](screenshots/burst-detection/4625-burst-detection-enriched.png)
+
+### 4740 Account Lockout Event
+![4740 Account Lockout](screenshots/lockout-correlation/4740-account-lockout.png)
+
+### 4625 → 4740 Correlation Validation
+![4740 Lockout Correlation](screenshots/lockout-correlation/4740-account-lockout.png)
+
+### Alert Configuration
+![Authentication Abuse Alert Configuration](screenshots/alert-configuration/auth-abuse-alert-config.png)
+
+### RDP Hardening – Kali Only Firewall Rule
+![RDP Firewall Restriction](screenshots/rdp-hardening/rdp-kali-only-firewall-rule.png)
+
+---
+
 ## Key Takeaways
 
 - Practical understanding of Windows authentication telemetry  
